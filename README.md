@@ -1,2 +1,2 @@
 # yulong
-My personal repository（我的个人仓库）
+My personal images（我的个人图片仓库）
