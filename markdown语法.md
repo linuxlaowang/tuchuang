@@ -21,10 +21,11 @@
   - [分割线](#分割线)
   - [任务列表](#任务列表)
   - [本地超链接（文档）](#本地超链接文档)
-    - [本地超链接（图片）](#本地超链接图片)
+    - [本地\\公网超链接（图片）](#本地公网超链接图片)
   - [换行语法](#换行语法)
 - [github语法提示](#github语法提示)
   - [图片处理方式，需要raw链接。一般为直接右键复制图片链接即可,若是不行的话。](#图片处理方式需要raw链接一般为直接右键复制图片链接即可若是不行的话)
+- [github 下载各个项目的wiki文档](#github-下载各个项目的wiki文档)
 
 
 
@@ -130,7 +131,7 @@ eg：
 [这里是本人笔记汇总](笔记.m d)
 [这里是百度](https://www.baidu.com)
 
-### 本地超链接（图片）
+### 本地\公网超链接（图片）
 <!--
 1、直接截图粘贴即可。![描述](本地相对路径名字)   #! 的存在为解释图片。 描述不会出现
 2、公网使用https 开头即可
@@ -158,3 +159,6 @@ test6        #第一种情况的前提下，test5行末加了br
 # github语法提示
 ## 图片处理方式，需要raw链接。一般为直接右键复制图片链接即可,若是不行的话。
 https://github.com/linuxlaowang/tuchuang/blob/master/nodes/sql.png  #将blob 改为raw 即可。
+# github 下载各个项目的wiki文档  
+得到git 项目中的https链接：https://github.com/redisson/redisson.git  
+然后在链接后面添加 wiki ,得到： https://github.com/redisson/redisson.wiki.git  
